@@ -3,7 +3,7 @@
 
 function f(n) {
     var arr = [];
-    for(var i = 1; i <= n; i++)
+    for(var i = 0; i < n; i++)
         arr.push(i);
     return arr;
 }
